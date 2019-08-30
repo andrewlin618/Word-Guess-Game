@@ -69,4 +69,7 @@ img{
     color:red;
     font-size: 4vh;
 }
-
+#user-guesses{
+    color:rgb(53, 188, 59);
+    letter-spacing:5px;
+}
