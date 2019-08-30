@@ -9,7 +9,8 @@ main{
 }
 
 h1,h2,h3{
-    font-family:"DK Crayon Crumble";
+    font-family: 'Patrick Hand', cursive;
+    font-weight: lighter;
     text-align: center;
 }
 h1{
@@ -53,6 +54,7 @@ img{
     border: 3px dashed white;
     font-size: 8vh;
     line-height: 10vh;
+    text-shadow: 3px 3px black;
 }
 
 #notification{
