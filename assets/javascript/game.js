@@ -103,8 +103,6 @@ function guessTheNextWord() {
     currentWord = [];
 
     userRemainingID.textContent = remaining;
-    userWinsID.textContent = wins;
-    userLossesID.textContent = losses;
     userGuessesID.textContent = "";
     wordsPictureID.src = "assets/images/start.gif"
 
@@ -202,6 +200,7 @@ document.onkeyup = function (event) {
             if (remaining == 0) {
                 notifySorry();
                 losses++;
+                userLossesID.textContent = losses;
                 playMusic();
                 currentWord = wordsPicked;
                 currentWordID.textContent = currentWord;
@@ -217,6 +216,7 @@ document.onkeyup = function (event) {
             currentWord = wordsPicked;
             currentWordID.textContent = currentWord;
             wins++;
+            userWinsID.textContent = wins;
             notifyCongratulations();
             //Check if win
             if (wins == 5) {
