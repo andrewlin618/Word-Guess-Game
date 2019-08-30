@@ -129,7 +129,6 @@ function reset() {
     userWinsID.textContent = 0;
     userLossesID.textContent = 0;
     userGuessesID.textContent = "";
-    wordsBankNow = wordsBank;
     userGuesses = [];
     currentWord = [];
     wins = 0;
