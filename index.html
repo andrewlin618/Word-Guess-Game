@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Word Guess!</title>
+    <!-- <link rel="stylesheet" href="assets/css/reset.css"> -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <audio id="music-tag">
+        <source id="music-playing" src='./assets/music/halo.mp3' type ='audio/mpeg'>
+    </audio>
+    <header></header>
+    <main>
+        <div class="blackboardBox">
+            <div class="imagesBox">
+                <img id="words-picture" src="assets/images/start.gif" alt="sorry">
+            </div>
+            <div class="wordsBox">
+                <h1 id="titleText">Song Guess</h1>
+                <h2>Wins: <span id="user-wins"></span>&nbsp&nbsp&nbsp&nbsp&nbsp Losses: <span id="user-losses"></span></h2>
+                <h1><span id="notification"></h1>
+                <h1 class="wideText"><span id="current-word"></span></h1>
+                <h2>Number of Guesses Remaining : <span id="user-remaining"></span></h2>
+                <h2>Letters Already Guessed : </h2>
+                <h1 class="wideText"><span id="user-guesses"></span></h1>
+            </div>
+
+        </div>
+
+    </main>
+    <footer></footer>
+
+    <script src="assets/javascript/game.js"></script>
+</body>
+
+</html>

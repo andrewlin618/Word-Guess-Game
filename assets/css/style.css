@@ -1,0 +1,70 @@
+body{
+    background-color: rgb(20, 27, 20);
+}
+main{
+    margin: 15%;
+    text-align: center;
+    width: 70%;
+    height:100vh;
+}
+
+h1,h2,h3{
+    font-family:"DK Crayon Crumble";
+    text-align: center;
+}
+h1{
+    font-size:6vh;
+}
+h2{
+    font-size:3vh;
+}
+h3{
+    font-size:2vh;
+}
+.blackboardBox{
+    background: url("../images/background.png");
+    background-size: 100%;
+    background-repeat:no-repeat;
+    height: 100%
+}
+.imagesBox{
+    margin: 20% 3% 20% 10%;
+    float: left;
+    width: 30%;
+}
+.wordsBox{
+    color: antiquewhite;
+    text-align: left;
+    float: left;
+    margin: 5% 10% 10% 0%;
+    width: 40%;
+    height: 80%;
+}
+
+.wideText{
+    color:rgb(53, 188, 59);
+    letter-spacing:6px;
+}
+
+img{
+    width: 100%;
+}
+#titleText{
+    border: 3px dashed white;
+    font-size: 8vh;
+    line-height: 10vh;
+}
+
+#notification{
+    text-shadow: 5px 5px black;
+}
+
+#user-wins{
+    color:rgb(53, 188, 59);
+    font-size: 4vh;
+}
+#user-losses,#user-remaining{
+    color:red;
+    font-size: 4vh;
+}
+
