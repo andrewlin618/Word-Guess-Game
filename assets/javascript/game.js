@@ -1,5 +1,4 @@
-var wordsBank = ["havana", "senorita", "believer", "lucky", "natural", "sunrise", "everybody", "halo", "supreme"];
-var wordsBankNow = wordsBank;
+var wordsBankNow = [];
 var userWinsID = document.getElementById("user-wins");
 var userLossesID = document.getElementById("user-losses");
 var notificationID = document.getElementById("notification");
@@ -117,7 +116,7 @@ function guessTheNextWord() {
     for (var i = 0; i < wordsPicked.length; i++) {
         currentWord.push("_");
     }
-    currentWordID.textContent = currentWord.join(" ");
+    currentWordID.textContent = currentWord.join("");
     notifyReset();
 
 
@@ -136,6 +135,8 @@ function reset() {
     wins = 0;
     losses = 0;
     remaining = CHANCESTOTAL;
+    wordsPictureID.src = "assets/images/start.gif"
+    wordsBankNow = ["havana", "senorita", "believer", "lucky", "natural", "sunrise", "everybody", "halo", "supreme"]
 
     notifyReset();
 
@@ -147,7 +148,7 @@ function reset() {
     for (var i = 0; i < wordsPicked.length; i++) {
         currentWord.push("_");
     }
-    currentWordID.textContent = currentWord.join(" ");
+    currentWordID.textContent = currentWord.join("");
     notificationID.textContent = "Next song:"
 }
 
@@ -157,7 +158,7 @@ reset();
 
 document.onkeyup = function (event) {
     //Check if lose
-    if (losses == 3) {
+    if (losses == 3 || wins == 5) {
         if (confirm("play again")) {
             reset();
         }
@@ -231,7 +232,7 @@ document.onkeyup = function (event) {
 
         //Guessed the right letter but not the hole words
         else {
-            currentWordID.textContent = currentWord.join(" ");
+            currentWordID.textContent = currentWord.join("");
         }
     }
 }
