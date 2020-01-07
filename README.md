@@ -15,6 +15,8 @@ Hangman game for popluar songs.
 - CSS
 - jQuery
 
+## Stretch Goals
+- Add some music api to grab more songs.
 
 ## Support
 
