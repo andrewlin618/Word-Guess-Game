@@ -1,7 +1,7 @@
 <img src="https://miro.medium.com/max/800/1*3FTNbYQ3pWzJ1u4XF1Suzw.png" height=100px alt="Pokemon"></img>
 
 # Word-Guess-Game
-Hangman game for popluar songs.
+Hangman game for popular songs.
 
 
 ## How to play
