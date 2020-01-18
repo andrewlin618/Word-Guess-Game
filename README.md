@@ -24,5 +24,5 @@ Hangman game for popular songs.
 
 - Tel:      &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; `206-886-9131`
 - Email:    &ensp; &nbsp; &nbsp; `andrewlin618@gmail.com`
-- LinkedIn: &nbsp; <a href="https://www.linkedin.com/in/andrew-lin-337592112/" target="_blank">`Andrew Lin`</a>
+- LinkedIn: &nbsp; [Andrew Lin](https://www.linkedin.com/in/andrewlin618)
 
