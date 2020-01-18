@@ -22,7 +22,7 @@ Hangman game for popular songs.
 
 > Reach out to me at one of the following places!
 
-- Tel:      &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; `206-886-9131`
-- Email:    &ensp; &nbsp; &nbsp; `andrewlin618@gmail.com`
-- LinkedIn: &nbsp; [Andrew Lin](https://www.linkedin.com/in/andrewlin618)
+- **Tel:**      &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; `206-886-9131`
+- **Email:**    &ensp; &nbsp; &nbsp; `andrewlin618@gmail.com`
+- **LinkedIn:** &nbsp;&nbsp; [Andrew Lin](https://www.linkedin.com/in/andrewlin618)
 
