@@ -6,9 +6,9 @@ Hangman game for popular songs.
 
 ## How to play
 - Type a letter to guess.
-- After 8 wrong guesses, you lose. If you get the right answer before lost, you win.
+- After 8 wrong guesses of the letter, you lose. If you get the right answer before lost, you win.
 - After 3 losts, game over. If you get 8 wins before game over, you win the game.
-- <a href="https://andrewlin618.github.io/Word-Guess-Game/" target="_blank">Try it!</a>
+- [Try it!](https://andrewlin618.github.io/Word-Guess-Game)
 
 ## Technology used
 - HTML
@@ -22,7 +22,7 @@ Hangman game for popular songs.
 
 > Reach out to me at one of the following places!
 
-- Tel:      &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; `206-886-9131`
-- Email:    &ensp; &nbsp; &nbsp; `andrewlin618@gmail.com`
-- LinkedIn: &nbsp; <a href="https://www.linkedin.com/in/andrew-lin-337592112/" target="_blank">`Andrew Lin`</a>
+- **Tel:**      &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; `206-886-9131`
+- **Email:**    &ensp; &nbsp; &nbsp; `andrewlin618@gmail.com`
+- **LinkedIn:** &nbsp;&nbsp; [Andrew Lin](https://www.linkedin.com/in/andrewlin618)
 
