@@ -1,5 +1,6 @@
 var wordsBankNow = [];
 var userWinsID = document.getElementById("user-wins");
+var hintID = document.getElementById("hint");
 var userLossesID = document.getElementById("user-losses");
 var notificationID = document.getElementById("notification");
 var currentWordID = document.getElementById("current-word");
@@ -109,12 +110,15 @@ function guessTheNextWord() {
     //Get a random word again;
     index = Math.floor(Math.random() * wordsBankNow.length);
     wordsPicked = wordsBankNow[index];
+    wordHint = wordsHintNow[index];
 
     //Set currentGuess to"_ _ _ _ _ _ _ _"
     for (var i = 0; i < wordsPicked.length; i++) {
         currentWord.push("_");
     }
     currentWordID.textContent = currentWord.join("");
+    hintID.textContent = wordHint;
+
     notifyReset();
 
 
@@ -134,19 +138,22 @@ function reset() {
     remaining = CHANCESTOTAL;
     wordsPictureID.src = "assets/images/start.gif"
     wordsBankNow = ["havana", "senorita", "believer", "lucky", "natural", "sunrise", "everybody", "halo", "supreme"]
+    wordsHintNow = ["Camila Cabello", "Camila Cabello", "Imagine Dragons", "Jason Mraz", "Imagine Dragons", "Norah Jones", "Backstreet Boys", "Beyoncé", "Robbie Williams"]
 
     notifyReset();
 
     //Get a random word;
     index = Math.floor(Math.random() * wordsBankNow.length);
     wordsPicked = wordsBankNow[index];
-
+    wordHint = wordsHintNow[index];
+    
     //Set currentGuess to"_ _ _ _ _ _ _ _"
     for (var i = 0; i < wordsPicked.length; i++) {
         currentWord.push("_");
     }
     currentWordID.textContent = currentWord.join("");
     notificationID.textContent = "Next song:"
+    hintID.textContent = wordHint;
 }
 
 reset();
