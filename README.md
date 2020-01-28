@@ -1,4 +1,4 @@
-<img src="assets/images/screenshot.png" height=200px alt="Screenshot"></img>
+<img src="assets/images/screenshot.png" height=300px alt="Screenshot"></img>
 
 # Word-Guess-Game
 Hangman game for popular songs.
