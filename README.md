@@ -13,7 +13,7 @@ Hangman game for popular songs.
 ## Technology used
 - HTML
 - CSS
-- jQuery
+- Vanilla Javascript
 
 ## Stretch Goals
 - Add some music api to grab more songs.
