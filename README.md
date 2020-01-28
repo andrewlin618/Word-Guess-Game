@@ -6,8 +6,8 @@ Hangman game for popular songs.
 
 ## How to play
 - Type a letter to guess.
-- After 8 wrong guesses of the letter, you lose. If you get the right answer before lost, you win.
-- After 3 losts, game over. If you get 8 wins before game over, you win the game.
+- After 5 wrong guesses of the letter, you lose. If you get the right answer before lost, you win.
+- After 3 losts, game over. If you get 5 wins before game over, you win the game.
 - [Try it!](https://andrewlin618.github.io/Word-Guess-Game)
 
 ## Technology used

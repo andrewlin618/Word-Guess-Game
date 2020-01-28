@@ -14,7 +14,7 @@ var musicPlaying = document.getElementById('music-playing');
 // audio.src = "assets/music/halo.mp3"
 // audio.play();
 
-const CHANCESTOTAL = 8;
+const CHANCESTOTAL = 5;
 var userGuesses = [];
 var currentWord = [];
 var wins = 0;
@@ -99,6 +99,7 @@ function notifyReset() {
 function guessTheNextWord() {
     //Reset Everything;
     wordsBankNow.splice(index, 1);
+    wordsHintNow.splice(index, 1);
     remaining = CHANCESTOTAL;
     userGuesses = [];
     currentWord = [];
@@ -120,8 +121,6 @@ function guessTheNextWord() {
     hintID.textContent = wordHint;
 
     notifyReset();
-
-
 
 }
 
