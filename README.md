@@ -18,7 +18,7 @@ Hangman game for popular songs.
 ## Stretch Goals
 - Add some music api to grab more songs.
 
-## Support
+## Contact
 
 > Reach out to me at one of the following places!
 
